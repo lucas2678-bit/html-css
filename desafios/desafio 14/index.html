@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+           border-collapse: collapse;
+           width: 550px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        thead  th  {
+            text-align: center;
+            background-color: dimgrey;
+            color: white;
+        }
+       thead  th#nota {
+            background-color: dimgrey;
+            padding: 5px;
+        }
+       tbody th#grau {
+            text-align: left;
+            background-color: dimgrey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+ <table>
+ <thead>
+    <tr>
+    <th rowspan="2" colspan="2">Area</th>
+    <th rowspan="2">Diciplina</th>
+    <th colspan="2">Notas</th>
+    <th rowspan="2">Média</th>
+    </tr>
+    <tr>
+    <th id="nota">Nota 1</th>
+    <th id="nota">Nota 2</th>
+    </tr>
+ </thead>
+ <tbody>
+    <tr>
+    <th rowspan="4">Exatas</th>
+    <td colspan="2">Matemática</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    </tr>
+    <tr>
+    <td colspan="2">Fisica</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    </tr>
+    <tr>
+    <td colspan="2">Química</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    </tr>
+    <tr>
+    <td colspan="2">Biologia</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    </tr>
+    <tr>
+    <th colspan="5" id="grau">Média de exatas</th>
+    <th id="grau">0,0</th>
+    </tr>
+    <tr>
+    <th rowspan="3">Humanas</th>
+    </tr>
+    <tr>
+    <td colspan="2">História</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    </tr>
+    <tr>
+    <td colspan="2">Geografia</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    <td>0,0</td>
+    </tr>
+    <tr>
+    <th colspan="5" id="grau">Média de humanas</th>
+    <th id="grau">0,0</th>
+    </tr>
+ </tbody>
+ </table>
+</body>
+</html>
