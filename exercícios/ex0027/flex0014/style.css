@@ -48,11 +48,11 @@ article.media-text{
 }
 
 article > div.text{
-    flex: 1 1 500px;
+    flex: 1 1 700px;
 }
 
 article > div.media{
-    flex: 1 0 400px;
+    flex: 1 0 350px;
 }
 
 div.media > img{
